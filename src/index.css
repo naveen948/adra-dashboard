@@ -1,0 +1,1240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+  font-family: poppins;
+  
+}
+body{
+  background-color:rgb(224, 223, 223);
+  /* background-color: rgb(89, 0, 255); */
+}
+* svg{
+  cursor: pointer !important;
+}
+
+
+/* note--cards css start */
+
+.card1 {
+  background-color: #0a0a0a;
+  color: white;
+}
+.card1 svg {
+  margin-left: 0.8rem;
+}
+.card1 span {
+  color: #9d9d9d;
+  font-size: small;
+}
+.card-body1 {
+  font-size: 10px !important;
+  height: 6rem !important;
+  overflow-y: scroll;
+}
+
+           /* documents  */
+
+.document-img {
+  height: 10rem;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  background-color: #dfdfdf;
+}
+.document-img img {
+  width: 100%;
+  height:auto;
+}
+.doc-para {
+  padding-left: 5px;
+  padding-top: 3px;
+}
+.img-text {
+  font-size: 10px !important;
+}
+.img-text1 {
+    font-size: 10px !important;
+}
+.img-icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.card {
+  border: none;
+}
+.mark-card {
+  margin-top: 1.25rem;
+}
+
+
+/* profile-cards */
+.profile-img {
+  padding:.1rem;
+  height: 10rem;
+  position: relative;
+  overflow: hidden;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+
+}
+.profile-cards{
+  height: 100vh !important;
+  overflow:hidden !important;
+}
+
+.profile-role{
+  font-size: smaller !important;
+}
+.img-text {
+  position: absolute;
+  top: .1rem;
+  right: .1rem;
+  background-color: #626fe6;
+    border-radius: 0px 4px 0px 4px !important;
+}
+.img-text1 {
+  position: absolute;
+  top: .1rem;
+  right: .1rem;
+  background-color: #e68562;
+  border-radius: 0px 4px 0px 4px !important;
+}
+.profile-text {
+  font-size: .6rem;
+  margin-top: 2px;
+}
+.hr-notes {
+      border-top: 1px dashed rgb(255, 255, 255)  !important;
+}
+.profile-role {
+  color: #a3a3a3;
+  font-size: .9rem;
+}
+.profile-card svg {
+  margin-right: 5px;
+  margin-top: 4px;
+}
+.profile-card {
+  margin-top: 1rem;
+  padding: 5px !important;
+}
+
+
+/* details-section */
+
+.details-img img {
+  border-radius: 50%;
+  width: 100px;
+  height: 93px;
+  margin: 5px;
+}
+.details-size{
+  height: 70vh !important;
+  overflow: hidden;
+}
+.text-color {
+  color: #a3a3a3;
+}
+.details-card {
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 15px;
+
+}
+.details-card svg {
+  margin: 3px;
+}
+.details-card h5 {
+  margin-top: 8px;
+}
+.person-details {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.text-size {
+  font-size: small;
+}
+.details-tabs {
+  color: grey;
+}
+.work-role{
+  font-size: 11px;
+}
+.work-role-p{
+  font-size: 14px;
+}
+.details-tabs:hover {
+  color: rgb(34, 2, 2);
+  font-weight: 500;
+}
+.span-items {
+  float: right;
+  color: #0a0a0a;
+}
+.margin-left {
+  margin-left: 30px;
+}
+.text-size-details{
+  font-size: 12px !important;
+}
+.text-size-details-p{
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.border-card{
+  border: 1px solid rgb(184, 184, 184);
+}
+.overflow{
+  overflow: scroll;
+}
+
+
+.login-page{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* attendence */
+.attend-img {
+  width: 100%;
+  height: 98%;
+  border-radius: 10px;
+}
+.climate-img {
+  margin-top: 19px;
+  height: 13.8rem;
+}
+.attend-icon-holder {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #dfdfdf;
+  padding-top: 2px;
+}
+.attend-card {
+  padding: 1.1rem;
+  text-transform: capitalize;
+}
+.table1 {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 80vh;
+}
+/* .table-detail {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80vh;
+} */
+.table2 {
+  overflow: scroll;
+  height: 60vh;
+}
+.table-1 {
+  height: 75vh;
+  overflow: scroll;
+}
+.width-login{
+  width: 23rem;
+}
+.no-data{
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+.no-data img{
+ width: 100%;
+  height: 100%;
+}
+
+.btn-border {
+  border: 1px solid #dfdfdf !important;
+  margin: 10px;
+  border-radius: 5px;
+  color: grey;
+}
+.attend-graph-header {
+  padding: 1rem;
+  margin: 5px;
+}
+.attend-graph-header p {
+  margin: 0%;
+}
+.page-size {
+  font-size: 1.2rem;
+  margin-left: 1.4rem;
+}
+
+/* payroll/ */
+.graph-img-1 {
+  width: 120%;
+}
+.size-div1 {
+  height: 10px;
+  background-color: rgb(255, 191, 15);
+  border-radius: 10px 0px 0px 10px;
+}
+.size-div2 {
+  height: 10px;
+  background-color: #808cff;
+}
+.size-div3 {
+  height: 10px;
+  background-color: #626fe6;
+  border-radius: 0px 10px 10px 0px;
+}
+.card-cursor {
+  cursor: pointer;
+}
+.payroll-heading {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.margin-svg {
+  padding-bottom: 4px;
+}
+
+
+
+/* side-bar */
+.logo-img {
+  padding:1rem;
+}
+.logo-img img{
+  padding:.4rem;
+}
+.side-bar-tabs svg:hover{
+  background-color:rgb(221, 221, 221);
+  color: black;
+}
+.side-bar-tabs:hover{
+  background-color:rgb(221, 221, 221);
+  color: black;
+}
+.hole-side-bar{
+  height: 100vh !important;
+  background-color: #0a0a0a;
+}
+.side-bar-tabs{
+  color: #9d9d9d;
+}
+.header-icon{
+  color:black;
+}
+
+/* header */
+@media(min-width:998px){
+  .canvas-button{
+    display:none;
+  }
+  
+}
+@media(max-width:768px)
+{
+.sidebar-canva{
+    display: none;
+  }
+  .close-button{
+  padding: 10px;
+  left: 0%;
+  top: 0%;
+}
+.text-size-details{
+  font-size: 18px !important;
+}
+.button-size-head{
+  height: 2rem;
+}
+.details-left{
+  height:10px !important;
+  padding-bottom: 50px;
+overflow: hidden !important;
+}
+.atttendence{
+  height: 100vh !important;
+  overflow: scroll !important;
+
+
+
+}
+.flex-basic1{
+  flex-basis: 50% !important;
+}
+.flex-basic2{
+  flex-basis: 10% !important;
+}
+.flex-basic3{
+  flex-basis: 10% !important;
+}
+.flex-basic4{
+  flex-basis: 10% !important;
+}
+.flex-basic5{
+  flex-basis: 5% !important;
+}
+.btn-border {
+  margin: 0px;
+}
+.project-logo{
+  width: 5vw !important;
+  height: 5vh !important;
+}
+.expenses-input1{
+  width: 50%;
+}
+.expenses-logo{
+    width: 5vw !important;
+
+}
+.expenses-logo1{
+    width: 5vw !important;
+
+}
+
+}
+/* layout */
+.o{
+  height: 75vh !important;
+  overflow-x: hidden;
+
+
+
+}
+.details-left{
+  height: 470px !important;
+  padding-bottom: 50px;
+overflow: scroll ;
+}
+.active1{
+  font-weight: 500 !important;
+}
+.border2{
+  border: 1px solid rgb(206, 206, 206);
+}
+.over-detail{
+  height: 80vh !important;
+}
+.over-detail1{
+overflow: scroll;
+}
+.pading-employee{
+    padding-bottom: 70px !important;
+}
+.table-vertical-lines th,
+        .table-vertical-lines td {
+            border: 1px solid rgb(179, 179, 179);
+        }
+        .table-vertical-lines  {
+            border-top: none;
+            border-bottom: none;
+        }
+.table-flow{
+  height: 22vh;
+  overflow: scroll;
+}
+.svg-icon{
+    width: 15px;
+    padding-bottom: 5px;
+  }
+.sub-head-text-1{
+  font-size: 0.875rem;
+}
+.sub-head-text-2{
+  font-size: 0.813rem;
+}
+.sub-head-text{
+  font-size: 1.125rem;
+}
+.display-tab{
+  display: block !important;
+  height: 50% !important;
+  overflow: scroll;
+}
+.hide-tab{
+  display: none !important;
+}
+.detail-size1{
+  height: 55vh !important;
+  overflow: hidden;
+
+
+
+}
+.all-page-head{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+  .icons {
+    margin: 25px;
+  }
+  .card1 svg {
+    margin-left: 20px;
+  }
+  .attend-row1 {
+    margin-top: 1.4rem;
+  }
+  .attend-row2 {
+    margin-top: 0.5rem;
+  }
+  .margin-top {
+    margin-top: 8px;
+  }
+  .padding-small-cards {
+    padding-bottom: 1.6rem !important;
+  }
+    .attend-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.climate-img {
+  margin-top: 24px !important;
+  height: 14.2rem !important;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.details-left{
+  height:620px !important;
+  padding-bottom: 50px;
+overflow: scroll ;
+}
+}
+
+@media (max-width: 1024px) {
+  .profile-text {
+    font-size: 9px !important;
+  }
+  .btn-size-in-md {
+    width: 50% !important;
+    margin-left: 0px !important;
+  }
+  .climate-img {
+    height: 237px !important;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    object-fit: contain;
+  }
+  .small-button-1 {
+    padding: 0;
+    margin: 0;
+    font-size: xx-small !important;
+  }
+.sub-head-text-1{
+  font-size: 0.813rem !important;
+}
+.sub-head-text-2{
+  font-size:0.625rem  !important;
+}
+.sub-head-text{
+  font-size: 0.938rem !important;
+}
+.details-img img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+.attend-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.climate-img {
+  margin-top: 19px;
+  height: 13.5rem !important;
+  overflow: hidden;
+    border-radius: 10px;
+}
+.margin-13{
+  margin-top: 8px !important;
+}
+        .project-card{
+       height: 28vh !important;
+}
+.project-icon-width{
+border-radius: 7px !important;
+height: 4vh !important;
+width: 3vw !important;
+}
+.star{
+  width: .9rem !important;
+}
+.admin-height1-img{
+  height: 24rem !important;
+  overflow: scroll;
+}
+.admin-pad{
+
+ height: 2rem !important;
+}
+.doco-logo{
+  width: 4vw !important;
+  height: 5vh !important;
+}
+.document-logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 4.4rem !important;
+
+}
+}
+
+@media (max-width: 768px) {
+  .card1 {
+    padding: 10px !important;
+  }
+  .img-text {
+    font-size: small;
+  }
+  .profile-text {
+    font-size: .7rem !important;
+  }
+  .text-space {
+    padding-top: 20px;
+  }
+  .outer-card-details {
+    margin-left: 11px;
+  }
+  .personal-details {
+    padding-right: 30px;
+  }
+  .margin {
+    margin-left: 10px;
+  }
+  .margin-13{
+    margin-top: 9px !important;
+    width: 15px;
+    height: 15px;
+  }
+  .attend-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.climate-img {
+  margin-top: 19px;
+  height: 14.9rem !important;
+  overflow: hidden;
+    border-radius: 10px;
+}
+  .button-size {
+    padding: 0.4rem;
+  }
+  .small-button {
+    margin-left: 0px;
+  }
+  .page-size{
+    font-size: 11px !important;
+  }
+  .profile-img {
+  padding:.1rem;
+  height: 11rem;
+  position: relative;
+  overflow: hidden;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+
+}
+.svg-size svg{
+  width: 13px !important;
+}
+.over-details{
+  overflow: auto;
+  height: 70vh !important;
+}
+   .project-card{
+       height: 39vh !important;
+}
+.project-icon-width{
+border-radius: 7px !important;
+height: 4vh !important;
+width: 3vw !important;
+}
+.star{
+  width: 11px;
+}
+.expenses-input{
+  height: 2rem !important;
+}
+.admin-height1{
+  overflow: scroll;
+  height: 70vh !important;
+}
+.doco-logo{
+  width: 4vw !important;
+  height: 5vh !important;
+}
+.document-logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 3.9rem !important;
+
+}
+}
+.header-icon-width{
+border: 1px solid rgb(177, 172, 172) !important;
+border-radius: 10px !important;
+}
+
+@media (max-width: 468px) {
+  .attend-card-header-text h5,
+  p {
+    font-size: 15px;
+  }
+  .margin {
+    margin-left: 10px;
+  }
+  .expenses-input1{
+  width: 100%;
+}
+  .small-button {
+    font-size: small;
+    margin-left: 0px;
+  }
+  .climate-img {
+    height: 250px !important;
+  }
+  .width-50 {
+    width: 100% !important;
+  }
+  .button-size {
+    padding: 0.2rem;
+  }
+  .page-size {
+    font-size: 11px !important;
+    margin-left: 1rem;
+  }
+  .payroll-input {
+    height: 40% !important;
+    width: 85%;
+  }
+  .height-1 {
+    padding-bottom: 10px;
+  }
+  .profile-img{
+    height: 15rem;
+  }
+  .profile-text{
+    font-size: .5rem !important;
+  }
+  /* .pading-employee {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  } */
+   .profile-card svg{
+    margin-right: 2px;
+    margin-top: 2px;
+   }
+  .margin-13{
+    margin-top: 10px !important;
+    width: 15px;
+    height: 15px;
+  }
+  .height-10{
+    height: 9px !important;
+  }
+  .height-11{
+    height:29px !important;
+  }
+  .small-width{
+    width: 75%;
+  }
+  .profile-card {
+  margin-top: 1rem;
+  padding:.2rem !important;
+  height: 15rem;
+}
+.sub-head-text-3{
+  font-size: 0.938rem !important;
+}
+.sub-head-text-2{
+  font-size: .7rem !important;
+}
+.flex-basic1{
+  width: 100% !important;
+  margin-bottom: 5px;
+}
+.flex-basic2{
+  width: 100% !important;
+  margin-bottom: 5px;
+}
+.flex-basic3{
+  width: 100% !important;
+  margin-bottom: 5px;
+}
+.flex-basic4{
+  width: 100% !important;
+  margin-bottom: 5px;
+}
+  .profile-img {
+  padding:.1rem;
+  height: 16rem;
+  position: relative;
+  overflow: hidden;
+}
+    .project-card{
+       height: 40vh !important;
+}
+.dash-date{
+    height: 50% !important;
+    width: 35% !important;
+     margin: 10px !important;
+     margin-top: 1rem !important;
+}
+.project-logo{
+  width: 9vw !important;
+  height: 5vh !important;
+  margin-bottom: 5px;
+}
+.project-icon-width{
+border-radius: 7px !important;
+height: 4vh !important;
+width: 5vw !important;
+}
+.height-project{
+  height:2rem !important;
+}
+.payroll-button-size{
+  height: 6vh;
+}
+.expenses-logo{
+    width: 10vw !important;
+
+}
+.expenses-logo1{
+    width: 10vw !important;
+
+}
+.expenses-input{
+  height: 2.2rem !important;
+}
+.flexwrap{
+  flex-wrap: wrap;
+}
+.admin-height1{
+  overflow: scroll;
+  height: 70vh !important;
+}
+.doco-logo{
+  width: 8vw !important;
+  height: 5vh !important;
+  background: rgba(243, 246, 255, 1);
+  border-radius: 5px;
+}
+.doco-scroll{
+  height: 17.5rem;
+  overflow: scroll;
+}
+.doco-details{
+  height: 20rem;
+  overflow: scroll;
+}
+.doco-file{
+  height: 20rem !important;
+  overflow: scroll;
+}
+.document-logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 4.2rem !important;
+
+}
+.document-logo img{
+  width: 100%;
+  height: 100%;
+}
+}
+@media (max-width: 320px) {
+  .payroll-input {
+    height: 60%;
+    width: 85%;
+  }  
+  .profile-img {
+  padding:.1rem;
+  height: 10rem;
+  position: relative;
+  overflow: hidden;
+}
+    .project-card{
+       height: 42vh !important;
+}
+.expenses-input1{
+  height: 1rem !important;
+}
+.admin-pad{
+ padding-bottom:27px !important;
+ padding-top: 7px !important;
+}
+
+
+}
+@media(width:1024px){
+    .svg-icon{
+    width: 10px;
+    padding-bottom: 5px;
+  }
+  .svg-size svg{
+  width: 13px !important;
+}
+  .profile-name{
+    font-size: 16px;
+  }
+  .profile-role{
+    font-size: 12px;
+  }
+  .text-start{
+    font-size: .7rem;
+  }
+  .side-bar-size{
+    font-size: .9rem;
+  }
+  .table-heading-1{
+    font-size: 1rem !important;
+  }
+  .attend-layout{
+  height: 85vh !important;
+  overflow: scroll;
+}
+.details-left{
+  height:400px !important;
+  padding-bottom: 50px;
+overflow: scroll ;
+}
+ .sub-head-text-3{
+    font-size: 0.688rem !important;
+  }
+  .margin-13{
+    width: 11px;
+
+  }
+  .profile-img {
+  padding:.1rem;
+  height: 9.4rem;
+  position: relative;
+  overflow: hidden;
+}
+.dash-date{
+    height: 50% !important;
+    width: 35% !important;
+     margin-top: 1rem !important;
+}
+.project-logo{
+  width: 3vw;
+  height: 3vh !important;
+}
+.details-left{
+  height: 36rem !important;
+  padding-bottom: 50px;
+overflow: scroll ;
+}
+.expenses-logo{
+    width: 4vw !important;
+      height: 4vh !important;
+
+}
+.expenses-logo1{
+    width: 4vw !important;
+    height: 4vh !important;
+
+}
+
+}
+@media(width:1440px){
+    .hole-side-bar{
+    padding:1.5rem;
+  }
+  .pad-4{
+  padding-bottom:1.5rem;
+}
+.attend-layout{
+  height: 85vh !important;
+  overflow: scroll;
+}
+  .margin-13{
+    margin-top: 12px !important;
+  }
+}
+.margin-13{
+    margin-top: 9px;
+
+  }
+  .sub-head-text-3{
+    font-size: 12px;
+  }
+  .off-icon{
+    height: 2.4rem;
+    background-color: white;
+    border-left: none;
+  }
+  .sub-head-text-4{
+    font-size: 0.625rem !important;
+  }
+.off-space{
+  margin-top: 28px;
+}
+.modal-1{
+  width: 17rem;
+}
+.sidebar-padding{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+
+
+.active-tab {
+    background-color: black !important; 
+    color: white !important; 
+}
+.active-tab .btn.text-color {
+    color: white !important;
+}
+.active-tab svg {
+    fill: white !important; 
+}
+.active-tab .react-icon {
+    fill: white !important; 
+}
+
+
+
+.card-effect:hover{
+transform: scale(1.05);
+transition-duration: 100ms;
+box-shadow: 0 8px 20px rgba(255, 3, 3, 0.2);
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.innertable ::-webkit-scrollbar {
+  display: none;
+}
+.innertable  {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.notes ::-webkit-scrollbar {
+  display: none;
+}
+.notes,.o {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.card-body1 ::-webkit-scrollbar {
+  display: none;
+}
+.card-body1,.table-flow,.details-left,.tab-scroll,.scroll,.naveen-pay,.naveen-pay1  { 
+  scrollbar-width: none !important;  /* Firefox */
+}
+
+
+
+
+
+
+
+
+     /* dashboard */
+     .dash-head{
+      font-size: 14px;
+      font-weight: 500;
+      margin: 14px;
+
+     }
+     .scroll{
+      height: 90vh;
+      overflow-y: scroll;
+     }
+.pie-chart{
+  width: 100%;
+  height: 155px;
+  padding: 20px;
+  padding-top: 0px;
+  overflow:hidden;
+}
+.pie-chart img{
+  width: 90%;
+  height: auto;
+
+}
+.dash-date{
+    height: 50% !important;
+    width: 35% !important;
+     margin: 10px;
+}
+          /* project */
+.project-photo-icon{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #808cff;
+  overflow: hidden;
+}
+.project-photo-icon img{
+  width: 100%;
+  height: 100%;
+}
+.project-icon-width{
+border: 1px solid rgb(228, 228, 228) !important;
+border-radius: 7px !important;
+height: 4vh;
+width: 2vw;
+}
+.project-card{
+  height: 33vh;
+}
+.project-logo{
+  width: 3vw;
+  height: 4vh;
+}
+.project-logo img{
+  width: 100%;
+  height:100%;
+}
+.project-text{
+  font-size: 10px;
+}
+/* expenses */
+.expenses-logo{
+    width: 3vw;
+  height: 6vh;
+  background-color: rgba(208, 21, 21, 0.1);
+  border-radius: 5px;
+}
+.expenses-logo1{
+    width: 3vw;
+  height: 6vh;
+  background-color: rgba(10, 9, 110, 0.1);
+  border-radius: 5px;
+}
+.doco-logo{
+  width: 3vw;
+  height: 6vh;
+  background: rgba(243, 246, 255, 1);
+  border-radius: 5px;
+}
+
+
+/* documents */
+.document-logo{
+  width: 50px;
+  height: 50px;
+
+}
+.document-logo img{
+  width: 100%;
+  height: 100%;
+}
+/* expenses */
+.height-bar{
+  height: 10px !important;
+}
+.height-bar-btn{
+  height: 5vh;
+  padding-top: 4px;
+}
+.bill-img img{
+  width: 100%;
+  height: 100%;
+}
+hr{
+  color: rgb(182, 182, 182);
+}
+.udemy-img{
+  width: 5vh;
+  height: 5vh;
+  background: rgba(248, 240, 255, 1);
+  border-radius: 4px;
+
+}
+.udemy-img img{
+  width: 100%;
+}
+ /* payslip */
+ .payslip-img{
+  width: 70px;
+  height: 68px;
+  border-radius: 50%;
+  margin-left: 40px;
+  overflow: hidden;
+ }
+ .payslip-img img{
+  width: 100%;
+  height: 100%;
+ }
+ /* naveen pay slip */
+ .naveen-slip-img{
+  width: 70px ;
+  height: 70px;
+  margin: 10px;
+
+ }
+ .naveen-slip-img img{
+  width: 100%;
+  height: 100%;
+    border-radius:50% ;
+ }
+.naveen-pay{
+  height: 20rem;
+  overflow: scroll;
+}
+.naveen-pay1{
+  height: 20rem;
+  overflow: scroll;
+}
+/* courses */
+.course-bar-height{
+  height: 7px ;
+ background: rgba(129, 131, 255, 1);
+  border-radius: 10px 0px 0px 10px;
+}
+.course-bar-height1{
+  height: 7px ;
+  background: rgba(243, 246, 255, 1);
+  border-radius: 0px 10px 10px 0px;
+}
+.modal-size{
+  width: 33rem !important;
+}
