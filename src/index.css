@@ -1092,7 +1092,7 @@ cursor: pointer;
   height: 155px;
   padding: 20px;
   padding-top: 0px;
-  overflow:hidden;
+  /* overflow:scroll; */
 }
 .pie-chart img{
   width: 90%;

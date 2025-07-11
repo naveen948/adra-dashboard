@@ -1,5 +1,8 @@
 import { IoPersonRemoveOutline } from "react-icons/io5";
 import { FaMoneyBillTransfer } from "react-icons/fa6";
+import Example from "./piechart";
+import BarChart from "./bargrap";
+import Chart from "./bargrap";
 export default function Dashboard(){
     return <div className="px-4 scroll ">
     <div className="row">
@@ -72,7 +75,8 @@ export default function Dashboard(){
                     </div>
                     <hr className="m-0 mx-2" />
                     <div className="pie-chart">
-                        <img src="piechart.png" alt="piechart"  />
+                        {/* <img src="piechart.png" alt="piechart"  /> */}
+                        <Example/>
                     </div>
                 </div>
             </div>
@@ -131,8 +135,9 @@ export default function Dashboard(){
                 <input type="date" className="form-control payroll-input sub-head-text-2 ms-2 ms-md-0" />
               </div>
             </div>
-            <div style={{overflow:"scroll"}}  className="pb-md-5  pb-0" >
-              <img src="graph1.png" className="graph-img-1 pe-md-5 pe-lg-0  " alt="graph" />
+            <div style={{overflow:"scroll"}}  className=" px-3  pb-0" >
+              {/* <img src="graph1.png" className="graph-img-1 pe-md-5 pe-lg-0  " alt="graph" /> */}
+              <Chart/>
             </div>
           </div>
         </div>
