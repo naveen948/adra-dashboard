@@ -5,7 +5,7 @@ export default function Project(){
         <div className="row  mt-3
          px-4">
         <div className="col-md-7">
-            <p className="sub-head-text  mt-md-1 fw-medium">Project</p>
+            <p className="fs-5 mt-md-1 fw-medium">Project</p>
         </div>
         <div className="col-md-5 col-12 mb-md-0">
             <div className=" gap-2 d-flex flexwrap justify-content-between">
