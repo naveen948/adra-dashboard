@@ -490,7 +490,10 @@ overflow: scroll;
   font-size: 1.2rem;
   font-weight: 500;
 }
-
+.list-card{
+  overflow: scroll;
+  height: 10rem;
+}
 
 
 
@@ -1175,7 +1178,7 @@ cursor: pointer;
 .card-body1 ::-webkit-scrollbar {
   display: none;
 }
-.card-body1,.table-flow,.details-left,.tab-scroll,.scroll,.naveen-pay,.naveen-pay1,.project-scroll ,.small-scroll { 
+.card-body1,.table-flow,.details-left,.tab-scroll,.scroll,.naveen-pay,.naveen-pay1,.project-scroll ,.small-scroll,.list-card { 
   scrollbar-width: none !important;  /* Firefox */
 }
 

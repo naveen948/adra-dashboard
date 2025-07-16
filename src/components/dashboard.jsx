@@ -86,14 +86,14 @@ export default function Dashboard(){
                     <p className="dash-head">Subscriptions & Tools</p>
                     </div>
                     <hr className="m-0 mx-2" />
-                    <div className=" p-2">
+                    <div className=" p-2  list-card">
                         <div className="card border p-1 mb-2">
                           <div className="d-flex justify-content-between">
                         <div className="d-flex">
                             <div className="udemy-img mt-1">
                                 <img src="udemy.svg" alt="udemy" />
                             </div>
-                            <div className="ms-2">
+                            <div className="ms-2 mt-1">
                                 <p className="m-0 sub-head-text-4 text-color">Udemy - Dev App course</p>
                                 <p className="m-0 sub-head-text-4">Renewal Date : Aug 15, 2025</p>
                             </div>
@@ -109,13 +109,29 @@ export default function Dashboard(){
                             <div className="udemy-img mt-1">
                                 <img src="figma.svg" alt="udemy" />
                             </div>
-                            <div className="ms-2">
+                            <div className="ms-2 mt-1">
                                 <p className="m-0 sub-head-text-4 text-color">Udemy - Dev App course</p>
                                 <p className="m-0 sub-head-text-4">Renewal Date : Aug 15, 2025</p>
                             </div>
                         </div>
                         <div className="">
                             <p className="fw-medium sub-head-text-4 mt-2">$ 200</p>
+                        </div>
+                    </div>
+                        </div>
+                        <div className="card border p-1 mb-2">
+                          <div className="d-flex justify-content-between">
+                        <div className="d-flex">
+                            <div className="udemy-img mt-1">
+                                <img src="udemy.svg" alt="udemy" />
+                            </div>
+                            <div className="ms-2 mt-1">
+                                <p className="m-0 sub-head-text-4 text-color">Udemy - Dev App course</p>
+                                <p className="m-0 sub-head-text-4">Renewal Date : Aug 15, 2025</p>
+                            </div>
+                        </div>
+                        <div className="pt-2">
+                            <p className="fw-medium sub-head-text-4 ">$ 200</p>
                         </div>
                     </div>
                         </div>
