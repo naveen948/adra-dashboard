@@ -5,11 +5,11 @@ export default function Timesheet(){
             <p className="sub-head-text fw-medium mt-2">Timesheet</p>
         </div>
         <div className="col-12 col-md-5">
-            <div className=" gap-3 d-flex justify-content-between">
-                <input type="text" className="form-control px-0 sub-head-text-3" placeholder="  search.." />
-                <div className="d-flex">
-                    <button className="btn bg-white me-2 px-3 sub-head-text-3">Import</button>
-                <button className="btn bg-black text-white px-3 sub-head-text-3">Create</button>
+            <div className=" gap-3 d-flex flexwrap justify-content-between">
+                <input type="text" className="form-control time-border px-0 sub-head-text-3" placeholder="  search.." />
+                <div className="d-flex mb-2 mb-md-0">
+                <button className="btn bg-white time-border me-2 px-3 sub-head-text-3">Import</button>
+                <button className="btn bg-black  text-white px-3 sub-head-text-3">Create</button>
                 </div>
                 
             </div>

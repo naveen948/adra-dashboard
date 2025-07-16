@@ -71,7 +71,7 @@ export default function Dashboard(){
                 <div className="card card-effect  shadow h-100   ">
                     <div className="d-flex justify-content-between">
                     <p className="dash-head">Attendence</p>
-                    <input type="date" className="form-control sub-head-text-4 dash-date  w-50" />
+                    <input type="month" className="form-control sub-head-text-4 dash-date  w-50" />
                     </div>
                     <hr className="m-0 mx-2" />
                     <div className="pie-chart">
@@ -173,16 +173,16 @@ export default function Dashboard(){
                 <p className=" sub-head-text-2 text-color">23 Employees</p>
               </div>
             </div>
-            <div className="align-items-center  p-2 mx-md-2 d-md-flex justify-content-between col gap-md-2 ">
+            <div className="align-items-center  gap-2 p-2 mx-md-2 d-flex justify-content-between col gap-md-2 ">
               <input
                 type="text"
                 placeholder="Search"
-                className="form-control w-md-50  sub-head-text-3 button-size-head mb-1 "
+                className="form-control w-50  sub-head-text-3 button-size-head "
               />
                <input
                 type="text"
                 placeholder="Filter"
-                className="form-control w-md-50  sub-head-text-2 button-size-head mb-1 "
+                className="form-control w-md-50 w-25  sub-head-text-2 button-size-head mb-1 mt-1 "
               />
               <input type="date" className="form-control w-25 button-size-head sub-head-text-2 width-50  " />
             </div>

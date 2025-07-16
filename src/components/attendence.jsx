@@ -144,7 +144,7 @@ export default function Attendence() {
           <div className="d-lg-flex justify-content-between">
             <div className="col-lg-4 ">
               <div className="attend-graph-header">
-                <p className="sub-head-text-1">Attendance Overview</p>
+                <p className="sub-head-text-1 fw-medium">Attendance Overview</p>
               <p className="text-color sub-head-text-2">34 Employees</p>
               </div>
             </div>

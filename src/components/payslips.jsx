@@ -2,16 +2,16 @@ import { IoChevronBackOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 export default function Payslip(){
     return <>
-    <div className="m-4 mt-2 p-2 px-2 rounded ">
+    <div className="m-4 mx-2 mt-2 p-2 px-2 rounded ">
             <div className="row ">
-            <div className="col-8 d-flex">
+            <div className="col-5 d-flex">
                 <Link to="/payroll"><span className="text-decoration-none"><IoChevronBackOutline className="text-black mb-1" />
 </span></Link>
-                <p className=" fw-medium ms-2">Pay Slip</p>
+                <p className=" fw-medium all-page-head ">Pay Slip</p>
             </div>
-            <div className="col-4">
-                <div className=" gap-3 d-flex justify-content-between">
-                    <div className="input-group">
+            <div className="col-12">
+                <div className=" gap-1 d-flex flexwrap  mb-2 justify-content-between">
+                    <div className="input-group me-md-5 me-0 ">
                          <span class="input-group-text bg-white border-end-0" ><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="black" class="bi bi-search" viewBox="0 0 16 16">
       <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
     </svg></span>
@@ -45,8 +45,8 @@ export default function Payslip(){
             </div>
             <hr />
         </div>
-            <div className="row mt-3 row-cols-6">
-               <div className="col">
+            <div className="d-flex flex-wrap small-scroll medium-scroll mt-3 row-cols-2 row-cols-md-4  row-cols-xl-6">
+               <div className="col p-2">
                     <Link to="/slip" className="text-decoration-none"><div className="card card-effect shadow p-1 pb-0">
                         <div className="payslip-img  my-3 ">
                             <img src="passport.png" alt="photo" />
@@ -58,7 +58,7 @@ export default function Payslip(){
                         
                     </div></Link>
                 </div>
-                <div className="col">
+                <div className="col p-2">
                     <Link to="/slip" className="text-decoration-none"><div className="card card-effect shadow p-1 pb-0">
                         <div className="payslip-img  my-3 ">
                             <img src="p-4.png" alt="photo" />
@@ -70,7 +70,7 @@ export default function Payslip(){
                         
                     </div></Link>
                 </div>
-                <div className="col">
+                <div className="col p-2">
                     <Link to="/slip" className="text-decoration-none"><div className="card card-effect shadow p-1 pb-0">
                         <div className="payslip-img  my-3 ">
                             <img src="p-3.png" alt="photo" />
@@ -82,7 +82,7 @@ export default function Payslip(){
                         
                     </div></Link>
                 </div>
-                <div className="col">
+                <div className="col p-2">
                     <Link to="/slip" className="text-decoration-none"><div className="card card-effect shadow p-1 pb-0">
                         <div className="payslip-img  my-3 ">
                             <img src="p-2.png" alt="photo" />
@@ -94,7 +94,7 @@ export default function Payslip(){
                         
                     </div></Link>
                 </div>
-                <div className="col">
+                <div className="col p-2">
                     <Link to="/slip" className="text-decoration-none"><div className="card card-effect shadow p-1 pb-0">
                         <div className="payslip-img  my-3 ">
                             <img src="p-5.png" alt="photo" />
@@ -106,7 +106,7 @@ export default function Payslip(){
                         
                     </div></Link>
                 </div>
-                <div className="col">
+                <div className="col p-2">
                     <Link to="/slip" className="text-decoration-none"><div className="card card-effect shadow p-1 pb-0">
                         <div className="payslip-img  my-3 ">
                             <img src="p-11.png" alt="photo" />

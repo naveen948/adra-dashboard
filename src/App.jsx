@@ -19,8 +19,10 @@ import AdminExpenses from "./components/adminExpenses";
 import Courses from "./components/courses";
 import Payslip from "./components/payslips";
 import Slip from "./components/payslip";
+import DragDropCards from "./components/drop";
 function App() {
   return <div className="container-fluid">
+    {/* <DragDropCards/> */}
     <BrowserRouter>
               <Routes>
                 <Route path="/" element={<Login />} />

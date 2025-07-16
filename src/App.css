@@ -11,7 +11,7 @@
     }
     .project-scroll{
         overflow: scroll !important;
-        height: 280px !important;
+        height: 22rem !important;
     }
     .project-icon-width{
         border: 1px solid rgb(177, 172, 172) !important;
@@ -23,6 +23,7 @@
   width: 9vw;
   height: 5vh;
 }
+
 }
 @media(max-width:768px){
     .pie-chart img{
@@ -33,10 +34,7 @@
         width: 35% !important;
         margin: 10px; 
     }
-    .table-sheet{
-        height: 23rem !important;
-        overflow: scroll;
-    }
+
 
 
 }

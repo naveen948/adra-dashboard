@@ -4,8 +4,8 @@ export default function Employee() {
   return (
     <div className="m-1 mt-md-4 mx-3 ">
       <div className="d-md-flex justify-content-between mt-2 ms-">
-        <p className="p-0 all-page-head ">Employees</p>
-        <div className="d-flex justify-content-end">
+        <p className="p-0 all-page-head  my-2 mt-3  m-md-0 ">Employees</p>
+        <div className="d-flex  justify-content-end">
           <div className="input-group me-1 w-md-25 w-50 mb-1 mb-md-0 ">
             <span
               class="input-group-text bg-white border-end-0"

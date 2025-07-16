@@ -5,10 +5,10 @@ export default function Project(){
         <div className="row  mt-3
          px-4">
         <div className="col-md-7">
-            <p className="sub-head-text mt-3 mt-md-1 fw-medium">Project</p>
+            <p className="sub-head-text  mt-md-1 fw-medium">Project</p>
         </div>
         <div className="col-md-5 col-12 mb-md-0">
-            <div className=" gap-3 d-flex justify-content-between">
+            <div className=" gap-2 d-flex flexwrap justify-content-between">
                 <div className="input-group  ">
                      <span class="input-group-text bg-white border-end-0 height-project" ><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="black" class="bi bi-search" viewBox="0 0 16 16">
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
@@ -22,7 +22,7 @@ export default function Project(){
                 
             </div>
         </div>
-        <hr />
+        <hr className="mt-1" />
     </div>
     <div className=" project-scroll  m-4 mt-0  p-2 px-4 rounded ">
     <div className="row mt-3 row-cols-1 row-cols-lg-3 row-cols-xl-4 row-cols-md-3">

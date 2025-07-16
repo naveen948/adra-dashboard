@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const EmployeeDetails = () => {
   const [activeTab, setActiveTab] = useState("general");
@@ -10,7 +11,13 @@ const EmployeeDetails = () => {
   return (
     <>
       <div className="d-flex justify-content-start align-items-center mb-4 p-3">
-        <h5 className="m-0">Prakash S - Details</h5>
+        <Link to="/employee" className="text-decoration-none text-black">
+        <div className="d-flex">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mt-1 me-2" viewBox="0 0 12 24"><path fill="#000" fill-rule="evenodd" d="m3.343 12l7.071 7.071L9 20.485l-7.778-7.778a1 1 0 0 1 0-1.414L9 3.515l1.414 1.414z" stroke-width="0.3" stroke="#000"/></svg>
+          <p className="m-0 all-page-head">Prakash S - Details</p>
+        </div>
+        
+        </Link>
       </div>
 
       <div className="container-fluid">

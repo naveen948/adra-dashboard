@@ -8,13 +8,14 @@ import { MdOutlineDeleteOutline } from "react-icons/md";
 import { BsPlus } from "react-icons/bs";
 export default function Slip(){
     return <div className="mx-4 ">
-        <div className="row mt-3 ">
+        <div className="row mt-3 s ">
         <div className="col-8 d-flex">
                 <Link to="/payslip" className="text-decoration-none"><span className="text-decoration-none"><IoChevronBack className="text-black mb-1" /></span></Link>
                 <p className="fw-medium ms-2">Naveen Pay Slips</p>
             </div>
             </div>
-    <div className="row mt-3 ">
+            <div className="small-scroll1">
+    <div className="row mt-3">
         <div className="col-lg-3 col-md-6 ">
           <div className="top-payroll-margin">
             <div className="card card-effect shadow card-cursor ">
@@ -95,7 +96,7 @@ export default function Slip(){
         </div>
       </div>
       <div className="row mt-3 naveen-pay">
-                  <div className="col-8 bg-white rounded  p-2 pt-3 ">
+                  <div className="col-lg-8 col-12 bg-white rounded  p-2 pt-3 ">
                 <div className="">
                     <div className="row ">
                         <div className="col-9 px-4">
@@ -104,21 +105,21 @@ export default function Slip(){
                                 <p className="m-0 sub-head-text-4 text-color">Here’s are employee payslip list details</p>
                             </div>
                         </div>
-                        <div className="col-3">
-                            <div className="d-flex gap-1">
+                        <div className="col-lg-3 col-12">
+                            <div className="d-flex">
                                 
-<div className="input-group  height-bar ms-2"><span class="input-group-text border-end-0 bg-white" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="black" class="bi bi-funnel" viewBox="0 0 16 16">
+<div className="input-group  pay-bar-height ms-2"><span class="input-group-text border-end-0 bg-white" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="black" class="bi bi-funnel" viewBox="0 0 16 16">
   <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2z"/>
 </svg></span><input type="text" className="form-control border-start-0 sub-head-text-3 px-2 " placeholder="Filter" /></div>
-                                <button className="btn border height-bar-btn  bg-white">+</button>
+                                <button className="btn border pay-bar-height  bg-white">+</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="mt-3">
+                <div className="mt-3 payslip-table">
                     <table className="table table-hover">
-                        <thead>
-                            <tr className="sub-head-text-3 fw-medium table-success">
+                        <thead className="sub-head-text-1">
+                            <tr className=" fw-medium table-success">
                                 <td>Bill Name</td>
                                 <td>Date</td>
                                 <td>Invoice Number</td>
@@ -128,8 +129,8 @@ export default function Slip(){
                                 <td>Amount</td>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr className="sub-head-text-4">
+                        <tbody className="sub-head-text-2">
+                            <tr >
                              
                                 <td>Aws Cloud Bill</td>
                                 <td>Jun27,2025</td>
@@ -139,7 +140,7 @@ export default function Slip(){
                                 <td >Gpay</td>
                                 <td>₹16,000</td>
                             </tr>
-                            <tr className="sub-head-text-4">
+                            <tr>
                            
                                 <td>Aws Cloud Bill</td>
                                 <td>Jun27,2025</td>
@@ -154,7 +155,7 @@ export default function Slip(){
                     </table>
                 </div>
             </div>
-            <div className="col-4 naveen-pay1">
+            <div className="col-lg-4 col-12 naveen-pay1">
               <div className="card shadow">
                 <div className="d-flex justify-content-between">
                 <div className="d-flex ">
@@ -194,7 +195,7 @@ export default function Slip(){
               </div>
             </div>
                 </div>
-                
+      </div>
       </div>
 
 }
