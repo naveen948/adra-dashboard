@@ -24,10 +24,10 @@ export default function Project(){
         </div>
         <hr className="mt-1" />
     </div>
-    <div className=" project-scroll  m-4 mt-0  p-2 px-4 rounded ">
+    <div className=" project-scroll  m-4 mt-0   p-2 px-4 rounded ">
     <div className="row mt-3 row-cols-1 row-cols-lg-3 row-cols-xl-4 row-cols-md-3">
         <div className="col">
-            <div className="card mb-4 mb-md-1 card-effect shadow project-card p-4">
+            <div className="card mb-4 mb-md-1 card-effect shadow   p-4">
                 <div className="d-flex justify-content-between">
                     <div className="project-logo"><img src="logo.png" alt="logo" /></div>
                     
@@ -58,7 +58,7 @@ export default function Project(){
             </div>
         </div>
         <div className="col">
-            <div className="card mb-4 mb-md-1 card-effect shadow project-card p-4">
+            <div className="card mb-4 mb-md-1 card-effect shadow   p-4">
                 <div className="d-flex justify-content-between">
                     <div className="project-logo"><img src="logo.png" alt="logo" /></div>
                     
@@ -89,7 +89,7 @@ export default function Project(){
             </div>
         </div>
         <div className="col">
-            <div className="card mb-4 mb-md-1 card-effect shadow project-card p-4">
+            <div className="card mb-4 mb-md-1 card-effect shadow p-4">
                 <div className="d-flex justify-content-between">
                     <div className="project-logo"><img src="logo.png" alt="logo" /></div>
                     
