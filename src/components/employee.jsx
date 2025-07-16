@@ -62,7 +62,7 @@ export default function Employee() {
           </button>
         </div>
       </div>
-      <hr />
+      <hr className="" />
       <div className="mt-3  p-4 pt-0 pt-md-2  p-md-0">
         <div className="row  o m-xl-2 pading-employee  row-cols-lg-4 row-cols-xl-5 row-cols-md-3  row-cols-md-2 row-cols-2">
           <div className="col">

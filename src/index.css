@@ -483,6 +483,9 @@ overflow: scroll;
 
 
 }
+.note-button{
+  height: 35px;
+}
 .all-page-head{
   font-size: 1.2rem;
   font-weight: 500;
@@ -548,7 +551,24 @@ width: 2vw !important;
   overflow: hidden;
   margin-left: 3rem !important;
  }
- 
+ .expenses-logo1{
+    width: 4vw !important;
+    height: 4vh !important;
+
+}
+  .expenses-logo{
+    width: 4vw !important;
+    height: 4vh !important;
+
+}
+.doco-logo{
+  width: 4vw !important;
+  height: 5vh !important;
+}
+.doco-logo-icon{
+  width: 200px !important;
+  height: 24px;
+}
 }
 
 @media (max-width: 1024px) {
@@ -946,6 +966,9 @@ width: 5vw !important;
   .table-sheet{
         height: 100vh !important;
         overflow: scroll;
+    }
+    .document-logo{
+      margin-left:7.3rem !important ;
     }
 }
 @media (max-width: 320px) {
@@ -1385,5 +1408,31 @@ hr{
         overflow: scroll !important;
     }
 
+
+}
+
+
+
+@media(width:412px){
+  .project-icon-width{
+height: 3vh !important;
+width: 5vw !important;
+}
+.project-logo{
+  width: 10vw !important;
+  height: 4vh !important;
+  margin-bottom: 5px;
+}
+.task-item{
+  margin-top: 3px;
+}
+ .expenses-logo1{
+    height: 4vh !important;
+
+}
+  .expenses-logo{
+    height: 4vh !important;
+
+}
 
 }

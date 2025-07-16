@@ -5,11 +5,11 @@ export default function Project(){
         <div className="row  mt-3
          px-4">
         <div className="col-md-7">
-            <p className="fs-5 mt-md-1 fw-medium">Project</p>
+            <p className="all-page-head mb-2 mt-md-1 fw-medium">Project</p>
         </div>
         <div className="col-md-5 col-12 mb-md-0">
-            <div className=" gap-2 d-flex flexwrap justify-content-between">
-                <div className="input-group  ">
+            <div className=" gap-2 d-flex  justify-content-between">
+                <div className="input-group ">
                      <span class="input-group-text bg-white border-end-0 height-project" ><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="black" class="bi bi-search" viewBox="0 0 16 16">
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
 </svg></span>
@@ -17,14 +17,14 @@ export default function Project(){
 
                 </div>
               <div>
-                <button className="btn height-project bg-black text-white px-2 sub-head-text-3 ">+&nbsp;Create&nbsp;Folder</button>
+                <button className="btn height-project  bg-black text-white px-2 sub-head-text-3 ">+&nbsp;Create&nbsp;Folder</button>
                 </div>
                 
             </div>
         </div>
         <hr className="mt-1" />
     </div>
-    <div className=" project-scroll  m-4 mt-0   p-2 px-4 rounded ">
+    <div className=" project-scroll  m-4 mt-0  pb-5  p-2 px-4 rounded ">
     <div className="row mt-3 row-cols-1 row-cols-lg-3 row-cols-xl-4 row-cols-md-3">
         <div className="col">
             <div className="card mb-4 mb-md-1 card-effect shadow   p-4">
@@ -49,7 +49,7 @@ export default function Project(){
                         <div className=" rounded me-2  project-icon-width d-flex justify-content-center align-items-center">
                             <LuStar className="star"  />
                         </div>
-                        <p className="text-success sub-head-text-3 mt-md-1 ">0 tasks</p>
+                        <p className="text-success sub-head-text-3 task-item mt-md-1 ">0 tasks</p>
                     </div>
                     <div className="project-photo-icon">
                         <img src="67.jpg" alt="profile" />
@@ -80,7 +80,7 @@ export default function Project(){
                         <div className=" rounded me-2  project-icon-width d-flex justify-content-center align-items-center">
                             <LuStar className="star"  />
                         </div>
-                        <p className="text-success sub-head-text-3 mt-md-1 ">0 tasks</p>
+                        <p className="text-success sub-head-text-3 task-item mt-md-1 ">0 tasks</p>
                     </div>
                     <div className="project-photo-icon">
                         <img src="67.jpg" alt="profile" />
@@ -111,7 +111,7 @@ export default function Project(){
                         <div className=" rounded me-2  project-icon-width d-flex justify-content-center align-items-center">
                             <LuStar className="star"  />
                         </div>
-                        <p className="text-success sub-head-text-3 mt-md-1 ">0 tasks</p>
+                        <p className="text-success sub-head-text-3 align-items-center task-item mt-md-1 ">0 tasks</p>
                     </div>
                     <div className="project-photo-icon">
                         <img src="67.jpg" alt="profile" />

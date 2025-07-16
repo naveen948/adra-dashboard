@@ -7,7 +7,7 @@ export default function Payroll() {
     <div className="d-flex flex-wrap  justify-content-between mt-2">
         <p className="pt-2 m-0 all-page-head">Payroll</p>
         <div className="mt-1"> 
-          <button className="btn border text-color sub-head-text-4 payroll-button-size me-2 bg-white "><TbLoader3 className="text-black" /> Add E-Sign</button>
+          <button className="btn border text-color sub-head-text-4 button-size-head me-2 bg-white "><TbLoader3 className="text-black" /> Add E-Sign</button>
         <Link to="/payslip"><button className="btn bg-black text-white button-size-head sub-head-text-4  "><IoReceiptOutline /> Pay&nbsp;Slips</button></Link>
 </div>
       </div>

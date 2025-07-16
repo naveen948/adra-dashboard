@@ -4,8 +4,8 @@ export default function Notes() {
   return (
     <div className="mx-3">
     <div className="d-flex justify-content-between mt-3">
-        <p className="p-0 ms-3 sub-head-text fw-medium">Notes</p>
-        <button className="btn bg-black text-white sub-head-text-3"  data-bs-toggle="modal" data-bs-target="#exampleModal">+ Add New Notes </button>
+        <p className="p-0 ms-3 all-page-head fw-medium">Notes</p>
+        <button className="btn bg-black text-white sub-head-text-4 px-2 note-button"  data-bs-toggle="modal" data-bs-target="#exampleModal">+ Add New Notes </button>
       </div>
       <hr />
     <div className="container-fluid o mt-3">
