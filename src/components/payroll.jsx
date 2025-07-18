@@ -1,20 +1,21 @@
 import { IoReceiptOutline } from "react-icons/io5";
 import { TbLoader3 } from "react-icons/tb";
 import { Link } from "react-router-dom";
+import { HiOutlineDotsVertical } from "react-icons/hi";
 export default function Payroll() {
   return (
     <div className="mx-3">
     <div className="d-flex flex-wrap  justify-content-between mt-2">
         <p className="pt-2 m-0 all-page-head">Payroll</p>
         <div className="mt-1"> 
-          <button className="btn border text-color sub-head-text-4 button-size-head me-2 bg-white "><TbLoader3 className="text-black" /> Add E-Sign</button>
-        <Link to="/payslip"><button className="btn bg-black text-white button-size-head sub-head-text-4  "><IoReceiptOutline /> Pay&nbsp;Slips</button></Link>
+          <button className="btn border text-color button-text-size button-size-head me-2 bg-white "><TbLoader3 className="text-black" /> Add E-Sign</button>
+        <button className="btn bg-black text-white button-size-head button-text-size  "><IoReceiptOutline /> Pay&nbsp;Slips</button>
 </div>
       </div>
       <hr />
-    <div className="container-fluid o mt-3">
+    <div className="o mt-3">
       <div className="row mt-3  gap-3 gap-md-0">
-        <div className="col-lg-3 col-md-6 mb-md-3 mb-0 ">
+        <div className="col-lg-3 col-md-6 mb-md-3 mb-0 pe-lg-0 ">
           <div className="top-payroll-margin">
             <div className="card  shadow card-cursor h-100">
               <div className="p-2 pe-lg-0 m-2">
@@ -46,7 +47,7 @@ export default function Payroll() {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 col-md-6">
+        <div className="col-lg-3 col-md-6 pe-lg-0">
           <div className="top-payroll-margin">
             <div className="card card-effect shadow card-cursor ">
               <div className="p-2 m-2">
@@ -72,7 +73,7 @@ export default function Payroll() {
             </div>
           </div>
         </div>
-        <div className="col-lg-3 col-md-6 ">
+        <div className="col-lg-3 col-md-6 pe-lg-0 ">
           <div className="top-payroll-margin">
             <div className=" card card-effect shadow h-100 card-cursor ">
               <div className="p-2 m-2">
@@ -94,13 +95,13 @@ export default function Payroll() {
                 <hr className="my-2" />
                 <div>
                   <p className="mb-2 text-start sub-head-text-1">₹ 16,00,000.00</p>
-                  <p className="text-color mb-0  text-start sub-head-text-2 pb-lg-1 pb-xl-0">23 Employees</p>
+                  <p className="text-color mb-0  text-start sub-head-text-2 pb-lg-1  pb-xl-0">23 Employees</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-lg-3 col-md-6">
+        <div className="col-lg-3 col-md-6 ">
           <div className="top-payroll-margin ">
             <div className="card card-effect shadow card-cursor  ">
               <div className="p-2 m-2 pe-lg-0">
@@ -128,9 +129,9 @@ export default function Payroll() {
           </div>
         </div>
       </div>
-      <div className="row  mt-3">
-        <div className="col-lg-8 mb-3 mb-md-3  top-payroll-margin">
-          <div className="card card-cursor  h-100   bg-white height-1">
+      <div className="row   mt-lg-1 mt-3">
+        <div className="col-lg-8 mb-3 mb-md-0 pe-xl-0  top-payroll-margin">
+          <div className="card card-cursor     bg-white ">
             <div className="p-2 d-flex justify-content-between">
               <div className="payroll-heading">
                 <p className="m-0 text-color sub-head-text-1 ">All Acivites</p>
@@ -146,11 +147,11 @@ export default function Payroll() {
           </div>
         </div>
         <div className="col-lg-4">
-          <div className="card card-cursor  bg-white h-100">
+          <div className="card card-cursor mt-md-2 mt-lg-0  bg-white h-100">
             <div>
-              <p className="payroll-heading text-start sub-head-text fw-semibold ms-3 mt-3">Employment Status</p>
+              <p className="payroll-heading text-start sub-head-text fw-semibold ms-2 mt-3">Employment Status</p>
             </div>
-            <div className="card-body p-4">
+            <div className="card-body p-4 pb-0">
               <div className="row px-3">
                 <div className="col-3 size-div1"></div>
                 <div className="col-5 size-div2"></div>
@@ -161,20 +162,20 @@ export default function Payroll() {
                 <div className="col-5 text-center text-start sub-head-text-2">60%</div>
                 <div className="col-4  text-center text-start sub-head-text-2">25%</div>
               </div>
-              <div className="mt-5 pt-2 ">
+              <div className="mt-4 mb-2 pt-2 ">
                 <img src="detail.png" className="w-100 h-auto  p-md-4 p-lg-0 " alt="details" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="row mt-3 m-1 ">
-        <div className="card    mt-2">
+      <div className="row mt-2 mx-0 m-1 ">
+        <div className="card   mt-2">
           <div className="d-lg-flex  justify-content-between">
-            <div className="col-lg-4 ">
-              <div className="attend-graph-header  ">
+            <div className="col-lg-6 ">
+              <div className="attend-graph-header  ps-2 ">
                 <p className="table-heading-1 text-color sub-head-text">Employees</p>
-                <p className=" sub-head-text-2">23 Employees</p>
+                <p className=" sub-head-text-2 ">23 Employees</p>
               </div>
             </div>
             <div className="align-items-center  p-2 d-md-flex justify-content-between col gap-md-2 ">
@@ -186,102 +187,40 @@ export default function Payroll() {
                <input
                 type="text"
                 placeholder="Filter"
-                className="form-control w-md-50  sub-head-text-2 button-size-head mb-1 "
+                className="form-control w-50  sub-head-text-2 button-size-head mb-1 "
               />
-              <input type="date" className="form-control w-25 button-size-head sub-head-text-2 width-50  " />
-              <button className="btn btn-border px-2 small-button bg-black text-white  button-size sub-head-text-2 button-size-head  ms-md-0 mt-4 mt-md-0 mb-md-0 me-md-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions3" aria-controls="offcanvasWithBothOptions">
-                +&nbsp;Add&nbsp;Employee
-              </button>
+              <input type="date" className="form-control w-50 button-size-head sub-head-text-2 " />
             </div>
           </div>
-          <div className="table-flow m-3" style={{height:"200px"}} >
+          <div className="pay-flow m-3" style={{height:"200px"}} >
             <table className="table border  table-vertical-lines table-hover ">
               <thead className="sub-head-text-1">
-                <tr className="text-center table-success">
-                  <td  className="p-2 ">Sno</td>
-                  <td>Employee</td>
-                  <td>Role</td>
-                  <td>Department</td>
-                  <td>Date</td>
-                  <td>Status</td>
-                  <td>Check-In</td>
-                  <td>Check-Out</td>
-                  <td>Working-Hours</td>
+                <tr className="text-center sub-head-text-3 fw-medium  ">
+                  <td >Employee Name</td>
+                  <td>Working Days <span className="text-color">(26 days)</span></td>
+                  <td>Working Hours</td>
+                  <td>Take Home Salary</td>
+                  <td>Deduction</td>
+                  <td>Provident Fund</td>
+                  <td>ESI</td>
+                  <td>Salary</td>
+                  <td>status</td>
                   <td>Action</td>
                 </tr>
               </thead>
-              <tbody className="sub-head-text-2">
+              <tbody className="sub-head-text-3">
                 <tr  className="text-center " style={{height:"50px"}}>
-                  <td className="border-bottom-0">01</td>
-                  <td className="border-bottom-0">naveen</td>
-                  <td className="border-bottom-0">UI UX Designer</td> 
-                  <td className="border-bottom-0">Design</td>
-                  <td className="border-bottom-0">16-Apr-2025</td>
-                  <td className="border-bottom-0">Work From Office</td>
-                  <td className="border-bottom-0">08:32 am</td>
-                  <td className="border-bottom-0">06:12 pm</td>
-                  <td className="border-bottom-0">09h 20m</td>
-                  <td className="border-bottom-0">:</td>
-                </tr>
-                <tr  className="text-center " style={{height:"50px"}}>
-                  <td className="border-bottom-0">01</td>
-                  <td className="border-bottom-0">naveen</td>
-                  <td className="border-bottom-0">UI UX Designer</td> 
-                  <td className="border-bottom-0">Design</td>
-                  <td className="border-bottom-0">16-Apr-2025</td>
-                  <td className="border-bottom-0">Work From Office</td>
-                  <td className="border-bottom-0">08:32 am</td>
-                  <td className="border-bottom-0">06:12 pm</td>
-                  <td className="border-bottom-0">09h 20m</td>
-                  <td className="border-bottom-0">:</td>
-                </tr>
-                <tr  className="text-center " style={{height:"50px"}}>
-                  <td className="border-bottom-0">01</td>
-                  <td className="border-bottom-0">naveen</td>
-                  <td className="border-bottom-0">UI UX Designer</td> 
-                  <td className="border-bottom-0">Design</td>
-                  <td className="border-bottom-0">16-Apr-2025</td>
-                  <td className="border-bottom-0">Work From Office</td>
-                  <td className="border-bottom-0">08:32 am</td>
-                  <td className="border-bottom-0">06:12 pm</td>
-                  <td className="border-bottom-0">09h 20m</td>
-                  <td className="border-bottom-0">:</td>
-                </tr>
-                <tr  className="text-center " style={{height:"50px"}}>
-                  <td className="border-bottom-0">01</td>
-                  <td className="border-bottom-0">naveen</td>
-                  <td className="border-bottom-0">UI UX Designer</td> 
-                  <td className="border-bottom-0">Design</td>
-                  <td className="border-bottom-0">16-Apr-2025</td>
-                  <td className="border-bottom-0">Work From Office</td>
-                  <td className="border-bottom-0">08:32 am</td>
-                  <td className="border-bottom-0">06:12 pm</td>
-                  <td className="border-bottom-0">09h 20m</td>
-                  <td className="border-bottom-0">:</td>
-                </tr>
-                <tr  className="text-center " style={{height:"50px"}}>
-                  <td className="border-bottom-0">01</td>
-                  <td className="border-bottom-0">naveen</td>
-                  <td className="border-bottom-0">UI UX Designer</td> 
-                  <td className="border-bottom-0">Design</td>
-                  <td className="border-bottom-0">16-Apr-2025</td>
-                  <td className="border-bottom-0">Work From Office</td>
-                  <td className="border-bottom-0">08:32 am</td>
-                  <td className="border-bottom-0">06:12 pm</td>
-                  <td className="border-bottom-0">09h 20m</td>
-                  <td className="border-bottom-0">:</td>
-                </tr>
-                <tr  className="text-center " style={{height:"50px"}}>
-                  <td className="border-bottom-0">01</td>
-                  <td className="border-bottom-0">naveen</td>
-                  <td className="border-bottom-0">UI UX Designer</td> 
-                  <td className="border-bottom-0">Design</td>
-                  <td className="border-bottom-0">16-Apr-2025</td>
-                  <td className="border-bottom-0">Work From Office</td>
-                  <td className="border-bottom-0">08:32 am</td>
-                  <td className="border-bottom-0">06:12 pm</td>
-                  <td className="border-bottom-0">09h 20m</td>
-                  <td className="border-bottom-0">:</td>
+
+                  <td className="border-bottom-0 pt-3">naveen</td>
+                  <td className="border-bottom-0 pt-3">22 Days</td> 
+                  <td className="border-bottom-0 pt-3">200 hrs 30 mins</td>
+                  <td className="border-bottom-0 pt-3">₹ 22,500</td>
+                  <td  className="border-bottom-0 pt-3">₹ 1,500</td>
+                  <td className="border-bottom-0 pt-3">₹ 1,800</td>
+                  <td className="border-bottom-0 pt-3">-</td>
+                  <td className="border-bottom-0 pt-3">₹ 19,200</td>
+                  <td className="border-bottom-0 pt-3 "><div className="text-success bg-succes paid-size"><p>paid</p></div></td>
+                  <td className="border-bottom-0 pt-3 text-primary text-decoration-underline"><p type="button" data-bs-toggle="offcanvas" data-bs-target="#payrollsummary">Payroll Summary</p></td>
                 </tr>
               </tbody>
             </table>
@@ -289,100 +228,72 @@ export default function Payroll() {
         </div>
       </div>
     </div>
-   
-<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions3" aria-labelledby="offcanvasWithBothOptionsLabel">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="payrollsummary" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Add employee</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Payroll Summary</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-    <div class="offcanvas-body sub-head-text-4 py-0">
-          <div className=" mb-2">
-            <label>
-              Employee Name <span style={{ color: "red" }}>*</span>
-            </label>
-            <input type="text" className="form-control mb-1 " />
-          </div>
-          <div className=" mb-1">
-            <label>
-              Job Role <span style={{ color: "red" }}>*</span>
-            </label>
-              <div className="input-group ">
-              <input type="text" className="form-control mb-1 border-end-0" />
-              <span class="input-group-text off-icon"  ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-</svg></span>
+  <div class="offcanvas-body">
+    <div className="">
+                    <div className="d-flex justify-content-between">
+                    <div className="d-flex ">
+                      <div className="naveen-slip-img">
+                        <img src="67.jpg" alt="photo" />
+                      </div>
+                      <div className="p-xl-2 mt-3 ms-1 p-1 ps-lg-3 ">
+                        <p className="m-0 sub-head-text-1">Prakash S</p>
+                        <p className="m-0 text-color work-role-p sub-head-text-2">
+                        Invoice Number - 0975846457
+                        </p>
+                      </div>
+                    </div>
+                    <div className="paid-label  ">
+                      <p>Paid</p>
+                    </div>
+                    </div>
+                    <hr className=" pb-4 mb-0 mt-0" />
+                    <div className="card-body">
+                      <div>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Position<span className="text-black">UI/UX Designer</span></p>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Department<span className="text-black">Design</span></p>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Payslip ID<span className="text-black">#PS-37464883-998</span></p>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Status<span className="text-success">Generated</span></p>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Payment Date<span className="text-black">Jun 03,2025</span></p>
+                        <hr />
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Basic Salary<span className="text-black">₹ 8,000</span></p>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">House Rent Allowance<span className="text-black">₹ 4,000</span></p>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Medical Allowance<span className="text-black">₹ 3,000</span></p>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Gross Earnings<span className="text-black">₹ 14,000</span></p>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Total Working Days<span className="text-black">26 Days</span></p>
+                        <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Deduction<span className="text-black">-₹ 1000</span></p>
+                        <hr />
+                         <p className="sub-head-text-3 text-color d-flex justify-content-between m-1">Total<span className="text-primary">₹ 13,000</span></p>
+                      </div>
+                      <div className="text-center">
+                                              <Link to="/payslip"><button className="btn bg-black text-white button-size-head sub-head-text-2 mt-3  "><IoReceiptOutline /> Generate Pay&nbsp;Slip</button></Link>
+                      </div>
 
-            </div>          </div>
-          <div className=" mb-1">
-            <label>
-              Department <span style={{ color: "red" }}>*</span>
-            </label>
-              <div className="input-group ">
-              <input type="text" className="form-control mb-1 border-end-0" />
-              <span class="input-group-text off-icon"  ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-</svg></span>
-
-            </div>          </div>
-          <div className=" mb-2">
-            <label>
-              Date <span style={{ color: "red" }}>*</span>
-            </label>
-            <div className="input-group  ">
-              <input type="text" className="form-control mb-1 border-end-0 " />
-              <span class="input-group-text off-icon"  ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2" viewBox="0 0 16 16">
-  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"/>
-  <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5z"/>
-</svg></span>
-
-            </div>
-          </div>
-          <div className=" mb-1">
-            <label>
-              Status <span style={{ color: "red" }}>*</span>
-            </label>
-              <div className="input-group ">
-              <input type="text" className="form-control mb-1 border-end-0" />
-              <span class="input-group-text off-icon"  ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-</svg></span>
-
-            </div>          </div>
-          <div className=" mb-1">
-            <label>
-              Check In <span style={{ color: "red" }}>*</span>
-            </label>
-            <div className="input-group ">
-              <input type="text" className="form-control mb-1 border-end-0 " />
-              <span className="input-group-text off-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
-  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
-</svg></span> 
-
-            </div>
-          </div>
-          <div className=" mb-1">
-            <label>
-              Check Out <span style={{ color: "red" }}>*</span>
-            </label>
-            <div className="input-group ">
-              <input type="text" className="form-control mb-1 border-end-0 " />
-              <span className="input-group-text off-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
-  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
-  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
-</svg></span> 
-
-            </div>
-          </div>
-          
-          <div className="card off-space">
-            <div className="d-flex justify-content-around mt-3">
-              <button className="btn border px-4 py-0 ">Cancel</button>
-              <button className="btn bg-dark text-white px-4 ">Save</button>
-            </div>
-          </div>
-        </div>
+                    </div>
+                    
+                  </div>
   </div>
+</div>
 </div>
   );
 }

@@ -3,11 +3,11 @@ import { IoChevronBack } from "react-icons/io5";
 export default function  Employee_document(){
     return <>
     <div className="mt-3">
-        <div className=" mx-4 d-flex">
+        <div className=" mx-3 d-flex">
             <Link to="/documents-file" className="text-decoration-none"><span className="text-decoration-none"><IoChevronBack className="text-black mb-1" /></span></Link>
-            <p className=" fw-medium ms-2">Naveen S document</p>
+            <p className="all-page-head fw-medium ms-2">Naveen S document</p>
         </div>
-    <div className="vh-100 bg-white mx-4">
+    <div className="vh-100 bg-white mx-3">
        <div className="row   px-4 pt-3 ">
         <div className="col-6"></div>
         <div className="col-12 col-md-6">

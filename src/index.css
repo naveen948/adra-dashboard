@@ -154,8 +154,11 @@ body{
   overflow: hidden;
 }
 .text-color {
-  color: #a3a3a3;
+  color: #a3a3a3 !important;
 }
+/* .paid-size{
+  width: 10px;
+} */
 .details-card {
   border: 1px solid rgb(224, 224, 224);
   border-radius: 15px;
@@ -163,6 +166,16 @@ body{
 }
 .details-card svg {
   margin: 3px;
+}
+.paid-label{
+  height: 1.3rem;
+  width:3rem;
+  text-align: center;
+  font-size: .7rem;
+  padding-top: 3px;
+  color: rgb(4, 141, 4);
+  background-color: rgba(47, 255, 47, 0.507);
+  border-radius: 2px ;
 }
 .details-card h5 {
   margin-top: 8px;
@@ -278,6 +291,7 @@ body{
 }
 .attend-graph-header {
   padding: 1rem;
+  padding-left: 20px;
   margin: 5px;
 }
 .attend-graph-header p {
@@ -286,6 +300,9 @@ body{
 .page-size {
   font-size: 1.2rem;
   margin-left: 1.4rem;
+}
+.sub-text{
+  font-size: 1rem;
 }
 
 /* payroll/ */
@@ -310,7 +327,7 @@ body{
   cursor: pointer;
 }
 .payroll-heading {
-  padding-left: 10px;
+  padding-left: 20px;
   padding-top: 15px;
 }
 .margin-svg {
@@ -357,10 +374,17 @@ body{
 .sidebar-canva{
     display: none;
   }
+  .button-text-size{
+  font-size: .7rem;
+}
   .close-button{
   padding: 10px;
   left: 0%;
   top: 0%;
+}
+  .height-bar-btn{
+  height: 2.1rem !important;
+  padding-top: 5px !important;
 }
 .text-size-details{
   font-size: 18px !important;
@@ -451,10 +475,7 @@ overflow: scroll;
             border-top: none;
             border-bottom: none;
         }
-.table-flow{
-  height: 22vh;
-  overflow: scroll;
-}
+
 .svg-icon{
     width: 15px;
     padding-bottom: 5px;
@@ -493,6 +514,9 @@ overflow: scroll;
 .list-card{
   overflow: scroll;
   height: 10rem;
+}
+.pay-flow{
+  overflow: scroll;
 }
 
 
@@ -775,11 +799,35 @@ width: 3vw !important;
 border: 1px solid rgb(177, 172, 172) !important;
 border-radius: 10px !important;
 }
-
+.dash-card-text{
+  color: rgba(0, 0, 0, 0.637);
+}
 @media (max-width: 468px) {
   .attend-card-header-text h5,
   p {
     font-size: 15px;
+  }
+  .height-bar-btn{
+  height: 6vh !important;
+  padding-top: 5px !important;
+}
+.course-height{
+  height: 100%;
+  padding-bottom: 30rem;
+  padding-top: .5rem;
+  overflow: scroll;
+}
+.filter-width {
+  width: 25%;
+}
+  .height-bar{
+  height: 6px !important;
+}
+  .table-flow{
+    overflow-x: scroll;
+}
+  .canvas-width{
+    width: 70% !important;
   }
   .margin {
     margin-left: 10px;
@@ -811,9 +859,6 @@ border-radius: 10px !important;
   .height-1 {
     padding-bottom: 10px;
   }
-  .profile-img{
-    height: 15rem;
-  }
   .profile-text{
     font-size: .5rem !important;
   }
@@ -839,6 +884,10 @@ border-radius: 10px !important;
   .small-width{
     width: 75%;
   }
+  .date-size{
+  width: 30% !important;
+}
+
   .profile-card {
   margin-top: 1rem;
   padding:.2rem !important;
@@ -861,6 +910,9 @@ border-radius: 10px !important;
 .flex-basic3{
   width: 100% !important;
   margin-bottom: 5px;
+}
+.button-text-size{
+  font-size: .8rem;
 }
 .flex-basic4{
   width: 100% !important;
@@ -1006,11 +1058,17 @@ width: 5vw !important;
 
 
 }
+    .button-text-size{
+  font-size: .7rem;
+}
 @media(width:1024px){
     .svg-icon{
     width: 10px;
     padding-bottom: 5px;
   }
+    .button-text-size{
+  font-size: .7rem;
+}
   .svg-size svg{
   width: 13px !important;
 }
@@ -1133,16 +1191,22 @@ padding-bottom: 5px;
 .active-tab .react-icon {
     fill: white !important; 
 }
+.width-depart{
+  width: 1rem !important;
+}
 
 
 
 .card-effect:hover{
-transform: scale(1.05);
-transition-duration: 100ms;
+transform: scale(1.03);
+transition-duration: 200ms;
 box-shadow: 0 8px 20px rgba(255, 3, 3, 0.2);
 cursor: pointer;
+outline:1px solid #36363673;
 }
-
+.manager-size{
+  width:20% !important;
+}
 
 
 
@@ -1178,10 +1242,13 @@ cursor: pointer;
 .card-body1 ::-webkit-scrollbar {
   display: none;
 }
-.card-body1,.table-flow,.details-left,.tab-scroll,.scroll,.naveen-pay,.naveen-pay1,.project-scroll ,.small-scroll,.list-card { 
+.card-body1,.table-flow,.details-left,.tab-scroll,.scroll,.naveen-pay,.naveen-pay1,.project-scroll ,.small-scroll,.list-card,.dash-bar,.pay-flow { 
   scrollbar-width: none !important;  /* Firefox */
 }
-
+.tab-scroll{
+  height: 60vh;
+  overflow: scroll;
+}
 
 
 
@@ -1287,6 +1354,10 @@ width: 2vw;
 .height-bar-btn{
   height: 5vh;
   padding-top: 4px;
+}
+.bill-img{
+  height: 100%;
+
 }
 .bill-img img{
   width: 100%;

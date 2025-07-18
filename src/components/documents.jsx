@@ -1,10 +1,10 @@
 import { GoFileDirectoryFill } from "react-icons/go";
 import { Link } from "react-router-dom";
 export default function Document(){
-    return <div className="m-4 mt-2 p-2 px-2 rounded ">
+    return <div className="m-4 mt-2 mx-2 p-2 px-2 rounded ">
         <div className="row px-md-0">
         <div className="col-8">
-            <p className=" fw-medium">Documents</p>
+            <p className=" all-page-head fw-medium">Documents</p>
         </div>
         <div className="col-md-7 col-12  col-lg-4">
             <div className=" gap-3 d-flex flex-wrap flex-md-nowrap justify-content-between">
@@ -16,12 +16,12 @@ export default function Document(){
                 </div>
                 
                 <div>
-                <button className="btn bg-black text-white px-3 sub-head-text-3" data-bs-toggle="modal" data-bs-target="#document_create">+&nbsp;Create&nbsp;Folder</button>
+                <button className="btn bg-black text-white px-3 button-text-size" data-bs-toggle="modal" data-bs-target="#document_create">+&nbsp;Create&nbsp;Folder</button>
                 </div>
                 
             </div>
         </div>
-        <hr />
+        <hr className="m-2" />
     </div>
         <div className="row mt-3 row-cols-md-3 row-cols-lg-4 doco-scroll row-cols-1">
             <div className="col mb-2">
@@ -29,9 +29,18 @@ export default function Document(){
                     <div className="d-flex justify-content-between mb-1">
                         <div className="doco-logo d-flex justify-content-center align-items-center text-danger "><GoFileDirectoryFill className="doco-logo-icon text-info" /></div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical " viewBox="0 0 16 16">
-      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
-    </svg></div>
+                            <div class="btn-group ">
+  <button type="button" className="btn rounded" data-bs-toggle="dropdown" aria-expanded="false">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+  <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+</svg>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end sub-head-text-4 height-drop drop-size">
+    <li><button class="dropdown-item" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><g fill="none" stroke="#0049e4" stroke-width="1.4"><path d="M6.5 6A1.5 1.5 0 0 1 8 4.5h5.5l4 4V18a1.5 1.5 0 0 1-1.5 1.5H8A1.5 1.5 0 0 1 6.5 18z"/><path stroke-linejoin="round" d="M13 4.5V9h4.5"/></g></svg> Pause</button></li>
+    <li><button class="dropdown-item" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="none" stroke="#0e0085" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m5 16l-1 4l4-1L19.586 7.414a2 2 0 0 0 0-2.828l-.172-.172a2 2 0 0 0-2.828 0zM15 6l3 3m-5 11h8"/></svg>&nbsp;&nbsp;&nbsp;Edit</button></li>
+    <li><button class="dropdown-item" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="#ff0606" fill-rule="evenodd" d="m6.774 6.4l.812 13.648a.8.8 0 0 0 .798.752h7.232a.8.8 0 0 0 .798-.752L17.226 6.4zm11.655 0l-.817 13.719A2 2 0 0 1 15.616 22H8.384a2 2 0 0 1-1.996-1.881L5.571 6.4H3.5v-.7a.5.5 0 0 1 .5-.5h16a.5.5 0 0 1 .5.5v.7zM14 3a.5.5 0 0 1 .5.5v.7h-5v-.7A.5.5 0 0 1 10 3zM9.5 9h1.2l.5 9H10zm3.8 0h1.2l-.5 9h-1.2z" stroke-width="0.5" stroke="#ff0606"/></svg>&nbsp;&nbsp;&nbsp;Delete</button></li>
+  </ul>
+</div></div>
                     </div>
                     <div>
                         <div className="my-2">
@@ -52,9 +61,18 @@ export default function Document(){
                     <div className="d-flex justify-content-between mb-1">
                         <div className="doco-logo d-flex justify-content-center align-items-center text-danger "><GoFileDirectoryFill className="doco-logo-icon text-warning" /></div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical " viewBox="0 0 16 16">
-      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
-    </svg></div>
+                            <div class="btn-group ">
+  <button type="button" className="btn rounded" data-bs-toggle="dropdown" aria-expanded="false">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+  <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+</svg>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end sub-head-text-4 height-drop drop-size">
+    <li><button class="dropdown-item" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><g fill="none" stroke="#0049e4" stroke-width="1.4"><path d="M6.5 6A1.5 1.5 0 0 1 8 4.5h5.5l4 4V18a1.5 1.5 0 0 1-1.5 1.5H8A1.5 1.5 0 0 1 6.5 18z"/><path stroke-linejoin="round" d="M13 4.5V9h4.5"/></g></svg> Pause</button></li>
+    <li><button class="dropdown-item" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="none" stroke="#0e0085" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m5 16l-1 4l4-1L19.586 7.414a2 2 0 0 0 0-2.828l-.172-.172a2 2 0 0 0-2.828 0zM15 6l3 3m-5 11h8"/></svg>&nbsp;&nbsp;&nbsp;Edit</button></li>
+    <li><button class="dropdown-item" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="#ff0606" fill-rule="evenodd" d="m6.774 6.4l.812 13.648a.8.8 0 0 0 .798.752h7.232a.8.8 0 0 0 .798-.752L17.226 6.4zm11.655 0l-.817 13.719A2 2 0 0 1 15.616 22H8.384a2 2 0 0 1-1.996-1.881L5.571 6.4H3.5v-.7a.5.5 0 0 1 .5-.5h16a.5.5 0 0 1 .5.5v.7zM14 3a.5.5 0 0 1 .5.5v.7h-5v-.7A.5.5 0 0 1 10 3zM9.5 9h1.2l.5 9H10zm3.8 0h1.2l-.5 9h-1.2z" stroke-width="0.5" stroke="#ff0606"/></svg>&nbsp;&nbsp;&nbsp;Delete</button></li>
+  </ul>
+</div></div>
                     </div>
                     <div>
                         <div className="my-2">
@@ -75,9 +93,18 @@ export default function Document(){
                     <div className="d-flex justify-content-between mb-1">
                         <div className="doco-logo d-flex justify-content-center align-items-center text-danger "><GoFileDirectoryFill className="doco-logo-icon text-success" /></div>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical " viewBox="0 0 16 16">
-      <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
-    </svg></div>
+                            <div class="btn-group ">
+  <button type="button" className="btn rounded" data-bs-toggle="dropdown" aria-expanded="false">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+  <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+</svg>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end sub-head-text-4 height-drop drop-size">
+    <li><button class="dropdown-item" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><g fill="none" stroke="#0049e4" stroke-width="1.4"><path d="M6.5 6A1.5 1.5 0 0 1 8 4.5h5.5l4 4V18a1.5 1.5 0 0 1-1.5 1.5H8A1.5 1.5 0 0 1 6.5 18z"/><path stroke-linejoin="round" d="M13 4.5V9h4.5"/></g></svg> Pause</button></li>
+    <li><button class="dropdown-item" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="none" stroke="#0e0085" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m5 16l-1 4l4-1L19.586 7.414a2 2 0 0 0 0-2.828l-.172-.172a2 2 0 0 0-2.828 0zM15 6l3 3m-5 11h8"/></svg>&nbsp;&nbsp;&nbsp;Edit</button></li>
+    <li><button class="dropdown-item" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="#ff0606" fill-rule="evenodd" d="m6.774 6.4l.812 13.648a.8.8 0 0 0 .798.752h7.232a.8.8 0 0 0 .798-.752L17.226 6.4zm11.655 0l-.817 13.719A2 2 0 0 1 15.616 22H8.384a2 2 0 0 1-1.996-1.881L5.571 6.4H3.5v-.7a.5.5 0 0 1 .5-.5h16a.5.5 0 0 1 .5.5v.7zM14 3a.5.5 0 0 1 .5.5v.7h-5v-.7A.5.5 0 0 1 10 3zM9.5 9h1.2l.5 9H10zm3.8 0h1.2l-.5 9h-1.2z" stroke-width="0.5" stroke="#ff0606"/></svg>&nbsp;&nbsp;&nbsp;Delete</button></li>
+  </ul>
+</div></div>
                     </div>
                     <div>
                         <div className="my-2">

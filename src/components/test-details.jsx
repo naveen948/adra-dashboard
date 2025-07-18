@@ -9,8 +9,8 @@ const EmployeeDetails = () => {
   };
 
   return (
-    <>
-      <div className="d-flex justify-content-start align-items-center mb-4 p-3">
+    <div >
+      <div className="d-flex  justify-content-start align-items-center mb-4 p-3">
         <Link to="/employee" className="text-decoration-none text-black">
         <div className="d-flex">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mt-1 me-2" viewBox="0 0 12 24"><path fill="#000" fill-rule="evenodd" d="m3.343 12l7.071 7.071L9 20.485l-7.778-7.778a1 1 0 0 1 0-1.414L9 3.515l1.414 1.414z" stroke-width="0.3" stroke="#000"/></svg>
@@ -21,7 +21,7 @@ const EmployeeDetails = () => {
       </div>
 
       <div className="container-fluid">
-        <div className="row over-details">
+        <div className="row over-details ">
           {/* Left Side: Fixed Container on large screens */}
           <div className="col-12 col-md-12 mb-md-3 col-lg-4  ">
             <div className="card p-md-4 p-3  details-left mb-2 mb-0">
@@ -175,7 +175,7 @@ const EmployeeDetails = () => {
               <hr />
 
               {/* Tab Content with Scroll */}
-              <div style={{ height: "calc(100vh - 200px)", overflowY: "auto" }} className="tab-scroll">
+              <div className="tab-scroll ">
                 <div className="tab-content  pb-5" id="employeeTabsContent">
                   {/* General Information Tab */}
                   <div
@@ -693,7 +693,7 @@ const EmployeeDetails = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

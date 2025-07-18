@@ -3,23 +3,23 @@ import { IoChevronBack } from "react-icons/io5";
 import { Link } from "react-router-dom";
 export default function Employee_documents(){
     return <>
-    <div className="m-4 mt-2 p-2 px-2 rounded ">
+    <div className="m-4 mx-2 mt-2 p-2 px-2 rounded ">
             <div className="row ">
-            <div className="col-lg-8 col-12 d-flex">
-                <Link to="/document" className="text-decoration-none"><span className="text-decoration-none"><IoChevronBack className="text-black  mb-1" /></span></Link>
-                <p className=" fw-medium ms-2">Employee Documents</p>
+            <div className="col-lg-8  col-12 d-flex">
+                <Link to="/document" className="text-decoration-none"><span className="text-decoration-none"><IoChevronBack className="text-black" /></span></Link>
+                <p className=" all-page-head fw-medium ms-1">Employee Documents</p>
             </div>
-            <div className="col-12 col-lg-4">
+            <div className="col-12 col-md-8 col-lg-4">
                 <div className=" gap-3 d-flex justify-content-between">
                     <div className="input-group">
                          <span class="input-group-text bg-white border-end-0" ><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="black" class="bi bi-search" viewBox="0 0 16 16">
       <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
     </svg></span>
-                        <input type="text" className="form-control border-start-0 px-0 sub-head-text-3" placeholder="  search.." />
+                        <input type="text" className="form-control  border-start-0 px-0 button-text-size" placeholder="  search.." />
                     </div>
                     
                     <div>
-                    <button className="btn bg-black text-white px-3 sub-head-text-3" data-bs-toggle="modal" data-bs-target="#document_create1">+&nbsp;Create&nbsp;Folder</button>
+                    <button className="btn bg-black text-white px-3 button-text-size" data-bs-toggle="modal" data-bs-target="#document_create1">+&nbsp;Create&nbsp;Folder</button>
                     </div>
                     
                 </div>

@@ -20,12 +20,14 @@ import Courses from "./components/courses";
 import Payslip from "./components/payslips";
 import Slip from "./components/payslip";
 import DragDropCards from "./components/drop";
+import ForgotPassword from "./components/forgot";
 function App() {
   return <div className="container-fluid">
     {/* <DragDropCards/> */}
     <BrowserRouter>
               <Routes>
                 <Route path="/" element={<Login />} />
+                <Route path="/forgot" element={<ForgotPassword/>}/>
                 <Route element={<Layout />}>
                   <Route path="/employee" element={<Employee />}/>
                   <Route path="/dashboard" element= {<Dashboard/>}/>

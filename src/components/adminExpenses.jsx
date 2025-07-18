@@ -3,13 +3,13 @@ import { IoChevronBack } from "react-icons/io5";
 
 export default function AdminExpenses(){
     return <>
-    <div className="d-flex justify-content-between mx-4 mt-3">
+    <div className="d-flex justify-content-between mx-3 mt-3">
         <div className="d-flex"><Link to="/expenses"><span><IoChevronBack className="text-black mb-1" /></span></Link><p className="ms-2 fw-medium">Admin Expenses</p></div>
         <p className="text-color">Total Amount : <span className="text-dark">2,00,000</span></p>
     </div>
     <hr  className="mx-4 mt-0"/>
     <div className="">
-        <div className="row  admin-height1 ms-5 ">
+        <div className="row  admin-height1  mx-3  ">
             <div className="col-12 col-xl-8  bg-white rounded  p-2 pt-3 ">
                 <div className="">
                     <div className="row ">
@@ -19,7 +19,7 @@ export default function AdminExpenses(){
                                 <p className="m-0 sub-head-text-4 text-color">100 Bills</p>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 col-lg-6 mt-3">
+                        <div className="col-12 col-md-6 col-lg-6  mt-3">
                             <div className="d-flex flexwrap gap-2 ">
                                 <div className="input-group height-bar mb-4 mb-md-0  "><input type="text" className="form-control sub-head-text-3 border-end-0   " placeholder="Search..." /><span class="input-group-text border-start-0 bg-white  " id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
@@ -27,7 +27,7 @@ export default function AdminExpenses(){
 <div className="input-group w-50 height-bar"><span class="input-group-text border-end-0 bg-white" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="black" class="bi bi-funnel" viewBox="0 0 16 16">
   <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2z"/>
 </svg></span><input type="text" className="form-control border-start-0 sub-head-text-3" placeholder="Filter" /></div>
-                                <button className="btn border height-bar-btn  admin-pad bg-white">+</button>
+                                <button className="btn border height-bar-btn mt-1 mt-md-0 admin-pad bg-white">+</button>
                             </div>
                         </div>
                     </div>
@@ -72,8 +72,8 @@ export default function AdminExpenses(){
                     </table>
                 </div>
             </div>
-            <div className="col-md-12 col-xl-3 ms-2  admin-height1-img col-12 bg-white   mt-3 mt-xl-0  rounded">
-                <div className="vh-100  p-3 ">
+            <div className="col-md-12 col-xl-4   admin-height1-img col-12 px-0   mt-3 mt-xl-0  rounded">
+                <div className="vh-100 bg-white rounded ms-xl-2 p-3 ">
                     <div className="d-flex justify-content-between">
                         <p className="all-page-head">Detail View</p>
                         <button className="btn border height-bar-btn pt-1 "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="currentColor" class="bi bi-three-dots-vertical  mb-lg-0 mb-3" viewBox="0 0 16 16">

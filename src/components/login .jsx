@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 export default function Login() {
@@ -67,7 +67,7 @@ export default function Login() {
             </div>
 
             <div className="text-end mt-3">
-              <a href="#">Forgot Password?</a>
+              <Link to="/forgot" ><a href="#">Forgot Password?</a></Link>
             </div>
           </div>
 

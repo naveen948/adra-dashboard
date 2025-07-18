@@ -6,10 +6,10 @@ export default function Expenses(){
     return <div>
         <div className="row  mt-2 px-4">
         <div className="col-lg-8 col-12">
-            <p className="sub-head-text fw-medium mt-1">Expenses</p>
+            <p className="all-page-head fw-medium mt-1">Expenses</p>
         </div>
-        <div className="col-lg-4 col-12 mb-2">
-            <div className=" gap-3 d-flex flexwrap justify-content-between">
+        <div className="col-lg-4 col-12 mb-2 px-0">
+            <div className="d-flex gap-lg-2 mt-1 flexwrap justify-content-between">
                 <div className="input-group expenses-input1  ">
                      <span class="input-group-text bg-white border-end-0 expenses-input" ><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="black" class="bi bi-search" viewBox="0 0 16 16">
   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
@@ -18,17 +18,17 @@ export default function Expenses(){
 
                 </div>
                 <div>
-                <button className="btn bg-black text-white px-3 sub-head-text-3 expenses-input" data-bs-toggle="modal" data-bs-target="#exampleModal" >+&nbsp;Create&nbsp;Folder</button>
+                <button className="btn bg-black text-white px-3 button-text-size expenses-input mt-2 mt-md-0 " data-bs-toggle="modal" data-bs-target="#exampleModal" >+&nbsp;Create&nbsp;Folder</button>
                 </div>
                 
             </div>
         </div>
         <hr />
     </div>
-        <div className="bg-white vh-100 m-4 mt-2 mt-md-3 p-2 px-4 rounded">
+        <div className="bg-white vh-100 m-4 mx-3 mt-2 mt-md-3 p-2 px-4 rounded">
         <div className="row mt-3 gap-3  row-cols-lg-4 row-cols-md-3 row-cols-1">
             <div className="col">
-               <Link to="/adminexpenses" className="text-decoration-none"> <div className="card shadow p-3 pb-0">
+               <Link to="/adminexpenses" className="text-decoration-none"> <div className="card card-effect shadow p-3 pb-0">
                     <div className="d-flex justify-content-between mb-1">
                         <div className="expenses-logo d-flex justify-content-center align-items-center text-danger "><PiHandCoinsDuotone className="w-100 h-50 " /></div>
                         <div>
@@ -47,7 +47,7 @@ export default function Expenses(){
                 </div></Link>
             </div>
             <div className="col">
-                <Link to="/course" className="text-decoration-none"><div className="card shadow p-3 pb-0">
+                <Link to="/course" className="text-decoration-none"><div className="card card-effect shadow p-3 pb-0">
                     <div className="d-flex justify-content-between mb-1">
                         <div className="expenses-logo1 d-flex justify-content-center align-items-center text-primary "><SiCoursera className="w-100 h-50 " /></div>
                         <div>

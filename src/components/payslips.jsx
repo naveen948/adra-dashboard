@@ -11,16 +11,16 @@ export default function Payslip(){
             </div>
             <div className="col-12">
                 <div className=" gap-1 d-flex flexwrap  mb-2 justify-content-between">
-                    <div className="input-group me-md-5 me-0 ">
-                         <span class="input-group-text bg-white border-end-0" ><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="black" class="bi bi-search" viewBox="0 0 16 16">
+                    <div className="input-group me-md-5 w-50 me-0 ">
+                         <span class="input-group-text   bg-white border-end-0" ><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="black" class="bi bi-search" viewBox="0 0 16 16">
       <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
     </svg></span>
-                        <input type="text" className="form-control border-start-0 px-0 sub-head-text-3" placeholder="  search.." />
+                        <input type="text" className="form-control border-start-0 p-0 sub-head-text-3" placeholder="  search.." />
                     </div>
                     
-                    <div className="input-group me-1 w-50 mb-1 mb-md-0 ">
+                    <div className="input-group me-1 w-25 mb-1 mb-md-0 ">
             <span
-              class="input-group-text bg-white border-end-0"
+              class="input-group-text  bg-white border-end-0"
               id="basic-addon2"
             >
               <svg
@@ -36,7 +36,7 @@ export default function Payslip(){
             </span>
             <input
               type="text"
-              className="form-control sub-head-text-2    border-start-0 p-0 "
+              className="form-control button-text-size    border-start-0 p-0 "
               placeholder="&nbsp;Filter"
             />
           </div>

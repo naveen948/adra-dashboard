@@ -4,14 +4,14 @@ export default function Notes() {
   return (
     <div className="mx-3">
     <div className="d-flex justify-content-between mt-3">
-        <p className="p-0 ms-3 all-page-head fw-medium">Notes</p>
-        <button className="btn bg-black text-white sub-head-text-4 px-2 note-button"  data-bs-toggle="modal" data-bs-target="#exampleModal">+ Add New Notes </button>
+        <p className="p-0 ms-0 all-page-head fw-medium">Notes</p>
+        <button className="btn bg-black text-white button-text-size px-2 note-button"  data-bs-toggle="modal" data-bs-target="#exampleModal">+ Add New Notes </button>
       </div>
-      <hr />
+      <hr className="mt-0" />
     <div className="container-fluid o mt-3">
-      <div className="row row-cols-lg-3 row-cols-xl-4 row-cols-md-3 row-cols-1 mb-5 ">
-        <div className="col  mb-3">
-          <div className="card card-effect  card1  mt-3">
+      <div className="row  row-cols-lg-3 row-cols-xl-4 row-cols-md-3 row-cols-1 mb-5 ">
+        <div className="col px-0 pe-2  mb-3">
+          <div className="card card-effect  card1  mt-3"  data-bs-toggle="modal" data-bs-target="#descriptionofnotes">
         <div className="card-header p-3">
           <p className=" mb-0 sub-head-text fw-medium">CodeCrafters</p>
           <span>01-01-2025 | 09:30 am</span>
@@ -21,7 +21,7 @@ export default function Notes() {
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
             </p>
           </div>
-          <hr />
+          <hr  />
           <div className="d-flex justify-content-end icons svg-size">
             <div>
               <svg
@@ -69,8 +69,8 @@ export default function Notes() {
         </div>
       </div>
         </div>
-        <div className="col  mb-3 ">
-          <div className="card card-effect card1 mt-3">
+        <div className="col px-0 pe-2  mb-3 ">
+          <div className="card card-effect card1 mt-3" data-bs-toggle="modal" data-bs-target="#descriptionofnotes">
         <div className="card-header p-3">
           <p className="card-title card-title1 sub-head-text mb-0 fw-medium">Pixel Perfect</p>
           <span>02-02-2025 | 1:19 pm</span>
@@ -126,8 +126,8 @@ export default function Notes() {
         </div>
       </div>
         </div>
-        <div className="col mb-3 ">
-          <div className="card card-effect  card1 mt-3">
+        <div className="col pe-2 px-0 mb-3 ">
+          <div className="card card-effect  card1 mt-3" data-bs-toggle="modal" data-bs-target="#descriptionofnotes">
         <div className="card-header p-3">
           <p className="card-title card-title1 mb-0 sub-head-text fw-medium">Innovate IQ</p>
           <span>05-03-2025 | 08:19 am</span>
@@ -184,8 +184,8 @@ export default function Notes() {
         </div>
       </div>
         </div>
-        <div className="col mb-3">
-          <div className="card card-effect  card1 mt-3">
+        <div className="col pe-2 px-0 mb-3">
+          <div className="card card-effect  card1 mt-3" data-bs-toggle="modal" data-bs-target="#descriptionofnotes">
         <div className="card-header p-3">
           <p className="card-title card-title1 mb-0 sub-head-text fw-medium">LogicLoom</p>
           <span>05-05-2025 | 12:19 pm</span>
@@ -242,8 +242,8 @@ export default function Notes() {
         </div>
       </div>
         </div>
-        <div className="col mb-3">
-          <div className="card card-effect  card1 mt-3">
+        <div className="col pe-2 px-0 mb-3">
+          <div className="card card-effect  card1 mt-3" data-bs-toggle="modal" data-bs-target="#descriptionofnotes">
         <div className="card-header p-3">
           <p className="card-title card-title1 mb-0 sub-head-text fw-medium">SparkSphere</p>
           <span>04-08-2025 | 02:20 pm</span>
@@ -300,8 +300,8 @@ export default function Notes() {
         </div>
       </div>
         </div>
-        <div className="col mb-3">
-          <div className="card card-effect card1 mt-3">
+        <div className="col pe-2 px-0 mb-3">
+          <div className="card card-effect card1 mt-3" data-bs-toggle="modal" data-bs-target="#descriptionofnotes">
         <div className="card-header p-3">
           <p className="card-title card-title1 mb-0 sub-head-text fw-medium">TechTonic</p>
           <span>05-07-2025 | 11:40 am</span>
@@ -357,8 +357,8 @@ export default function Notes() {
         </div>
       </div>
         </div>
-        <div className="col mb-3">
-          <div className="card  card-effect card1 mt-3">
+        <div className="col pe-2 px-0 mb-3">
+          <div className="card  card-effect card1 mt-3" data-bs-toggle="modal" data-bs-target="#descriptionofnotes">
         <div className="card-header p-3">
           <p className="card-title card-title1 mb-0 sub-head-text fw-medium">CloudSail</p>
           <span>16-09-2025 | 07:19 am</span>
@@ -415,8 +415,8 @@ export default function Notes() {
         </div>
       </div>
         </div>
-        <div className="col mb-3">
-          <div className="card  card-effect  card1 mt-3">
+        <div className="col px-0 mb-3">
+          <div className="card  card-effect  card1 mt-3" data-bs-toggle="modal" data-bs-target="#descriptionofnotes">
         <div className="card-header p-3 ">
           <p className="card-title card-title1 mb-0 sub-head-text fw-medium">EchoWave</p>
           <span>19-10-2025 | 09:50 am</span>
@@ -494,6 +494,24 @@ The clowns had taken over. And yes, they were literally clowns. Over 100 had app
       <div class="modal-footer  py-2">
         <button type="button" class="btn btn-secondary sub-head-text-3" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-dark sub-head-text-3">Save </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="descriptionofnotes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  	modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body sub-head-text-1 pb-5">
+        The company, albeit an artificial entity, is in reality the shareholders in a “special form”. Shareholders own the company. The assets of the company are equitably the assets of the shareholder-owners.
+        Under this model, every stakeholder is important. The business corporation cannot exist without the stakeholders as each part of the whole is necessary. Expectation of all stakeholders is to be met for the survival and success of the firm. This is further supported by the corporate citizen theory wherein corporations are seen as members of the society with similar rights and duties like other citizens. Companies are regarded as ‘social persons’ – a creation of legal entity linked to the achievement of social goals.
+Gradually, an alternative conception of company emerged in which shareholders began to be regarded primarily as investors, and not the proprietors. Based on the social entity theory, the company is regarded to have a social purpose. While shareholders are entitled to a fair return on their investment, the company owes certain obligations to other constituents.
       </div>
     </div>
   </div>

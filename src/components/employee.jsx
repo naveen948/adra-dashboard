@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 export default function Employee() {
   return (
     <div className="m-1 mt-md-4 mx-3 ">
-      <div className="d-md-flex justify-content-between mt-2 ms-">
+      <div className="d-md-flex justify-content-between mt-2 ms-xl-1 ">
         <p className="p-0 all-page-head  my-2 mt-3  m-md-0 ">Employees</p>
         <div className="d-flex  justify-content-end">
-          <div className="input-group me-1 w-md-25 w-50 mb-1 mb-md-0 ">
+          <div className="input-group me-1 w-25 mb-1 mb-md-0 ">
             <span
               class="input-group-text bg-white border-end-0"
               id="basic-addon2"
@@ -24,11 +24,11 @@ export default function Employee() {
             </span>
             <input
               type="text"
-              className="form-control sub-head-text-2    border-start-0 p-0 "
+              className="form-control sub-head-text-2    border-start-0 p-0  "
               placeholder="Filter"
             />
           </div>
-          <div className="input-group me-1 w-50 mb-3 mb-md-0 height-10 ">
+          <div className="input-group me-1 w-50 mb-3 mb-md-0  height-10 ">
             <input
               type="text"
               className="form-control  border-end-0 p-0 sub-head-text-2 "
@@ -52,7 +52,7 @@ export default function Employee() {
           </div>
 
           <button
-            className="btn bg-black text-white sub-head-text-2 height-11 "
+            className="btn bg-black text-white ms-3 ms-md-0 sub-head-text-2 height-11 "
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasWithBothOptions1"
@@ -63,7 +63,7 @@ export default function Employee() {
         </div>
       </div>
       <hr className="" />
-      <div className="mt-3  p-4 pt-0 pt-md-2  p-md-0">
+      <div className="mt-3  p-4 px-0 pt-0 pt-md-2  p-md-0">
         <div className="row  o m-xl-2 pading-employee  row-cols-lg-4 row-cols-xl-5 row-cols-md-3  row-cols-md-2 row-cols-2">
           <div className="col">
             <Link to="/employee-details" className="text-decoration-none">
